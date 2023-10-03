@@ -1,16 +1,14 @@
-# app_info_divice_bakapp
+Con este paquete podra obtener la informacion de todos los dispositivos Android o IOS que se logueen en su aplicacion.
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Importe package:device_info_plus/device_info_plus.dart, cree instancias DeviceInfoPlugin y utilice captadores web de Android e iOS para obtener información del dispositivo específica de la plataforma.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+El complemento proporciona un datamétodo que devuelve información del dispositivo específica de la plataforma de forma genérica, que puede usarse con fines de informes de fallos.
+
+Sin embargo, los datos proporcionados por este datamétodo actualmente no son serializables (es decir, no son 100 % compatibles con JSON) y no deben tratarse como tales.
+
+
+Espero que te sea de ayuda.
